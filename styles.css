@@ -1,0 +1,173 @@
+/* variables */
+:root {
+  --header: #FF1493;
+  --secondary: #191970;
+  --tertiary: #FFF8DC
+}
+
+body {
+  font-family: "Trebuchet MS";
+}
+
+header {
+  width: 100%;
+  background: white;
+}
+
+.body {
+  margin-left: 100px;
+}
+
+/* Header */
+.logo {
+  float: left;
+  padding: 5px 0px 5px 10px;
+  background-image: url("images/animoji1.png");
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  background-size: 100px;
+}
+
+.logo:hover {
+  background-image: url("images/animoji2.png");
+}
+
+nav {
+  float: right;
+}
+
+.menu {
+  margin: 0;
+  padding-right: 50px;
+  list-style: none;
+}
+
+nav a:hover {
+  color: var(--header);
+}
+
+.menu-link {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 30px;
+  position: relative;
+}
+
+nav a {
+  color: var(--secondary);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100px;
+  background-color: var(--header);
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+/* home page */
+.home h1 {
+  color: var(--header);
+  margin-top: 100px;
+  font-size: 70px;
+}
+
+.home p {
+  font-size: 40px;
+  width: 800px
+}
+
+/* Contact Page */
+.socialmedia {
+  list-style: none;
+  color: var(--secondary);
+}
+
+.socialmedia li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.text-links {
+  color: black;
+}
+
+.text-links:hover {
+  color: var(--header);
+  text-decoration: none;
+}
+
+.contact h2 {
+  color: var(--secondary);
+  font-size: 50px;
+  margin-top: 75px;
+}
+
+.contact p {
+  font-size: 25px;
+  width: 1000px;
+}
+
+/* about page */
+.about h2 {
+  color: var(--secondary);
+  font-size: 50px;
+  margin-top: 75px;
+}
+
+.about p {
+  font-size: 25px;
+  width: 1000px;
+}
+
+.about a {
+  color: black;
+}
+
+.about a:hover {
+  color: var(--header);
+  text-decoration: none;
+}
+
+/* favorites */
+.recs {
+  margin-left: 25px;
+}
+
+.recs a {
+  text-decoration: none;
+  color: black;
+}
+
+.recs a:hover {
+  text-decoration: none;
+  color: var(--header);
+}
+
+.favorites h2 {
+  color: var(--secondary);
+  font-size: 50px;
+  margin-top: 75px;
+}
+
+.favorites p {
+  font-size: 25px;
+  width: 800px;
+}
