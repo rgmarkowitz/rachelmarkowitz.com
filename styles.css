@@ -135,6 +135,7 @@ nav a:hover::before {
 .about p {
   font-size: 25px;
   width: 1000px;
+  /* text-align: justify; */
 }
 
 .about a {
