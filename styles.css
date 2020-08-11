@@ -237,6 +237,10 @@ nav a:hover::before {
   overflow: scroll;
 }
 
+.skills {
+  margin-left: 40px;
+}
+
 .close {
   color: #aaa;
   float: right;
