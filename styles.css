@@ -259,14 +259,14 @@ nav a:hover::before {
 button {
   border-style: none;
   background-color: white;
-  color: var(--header);
+  color: var(--secondary);
   font-size: 30px;
   font-family: 'Mukta Malar', sans-serif;
   /* text-shadow: 2px 2px #630a3a; */
 }
 
 button:hover {
-  color: var(--secondary);
+  color: var(--header);
 }
 
 .container {
