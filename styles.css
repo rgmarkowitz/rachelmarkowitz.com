@@ -235,6 +235,7 @@ nav a:hover::before {
   height: 35%;
   font-size: 20px;
   overflow: scroll;
+  border-radius: 15px;
 }
 
 .skills {
