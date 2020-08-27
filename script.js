@@ -12,7 +12,10 @@ var thirtyFourthModal = document.getElementById("thirtyFourthModal");
 var modal = document.getElementsByClassName("modal");
 
 // get variable for close button
-var span = document.getElementsByClassName("close")[0];
+var gwcSpan = document.getElementsByClassName("close")[0];
+var penncsSpan = document.getElementsByClassName("close")[1];
+var cobareSpan = document.getElementsByClassName("close")[2];
+var thirtyfourthSpan = document.getElementsByClassName("close")[3];
 
 //Add event listener for each variables
 gwc.addEventListener("click", gwcDisplay);
@@ -20,7 +23,10 @@ penncs.addEventListener("click", penncsDisplay);
 cobare.addEventListener("click", cobareDisplay);
 thirtyFourth.addEventListener("click", thirtyFourthDisplay);
 
-span.addEventListener("click", closeBox);
+gwcSpan.addEventListener("click", closeBox);
+penncsSpan.addEventListener("click", closeBox);
+cobareSpan.addEventListener("click", closeBox);
+thirtyfourthSpan.addEventListener("click", closeBox);
 
 //Functions which display text box
 function gwcDisplay() {
